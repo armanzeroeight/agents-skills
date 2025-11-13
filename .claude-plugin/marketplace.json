@@ -47,6 +47,44 @@
       ]
     },
     {
+      "name": "git-workflow-toolkit",
+      "source": "./plugins/git-workflow-toolkit",
+      "description": "Git workflow and branching strategy toolkit with commit message generation, branch management, and workflow optimization. Includes git expert agent for strategic decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "git",
+        "version-control",
+        "branching-strategy",
+        "commit-messages",
+        "workflow-optimization"
+      ],
+      "tags": [
+        "tier:essential",
+        "tech:git",
+        "role:developer"
+      ],
+      "category": "Version Control",
+      "strict": false,
+      "commands": [
+        "commands/smart-commit.md",
+        "commands/branch-cleanup.md"
+      ],
+      "agents": [
+        "agents/git-expert.md"
+      ],
+      "skills": [
+        "skills/commit-message-generator",
+        "skills/branch-strategy-advisor"
+      ]
+    },
+    {
       "name": "developer-toolkit",
       "source": "./plugins/developer-toolkit",
       "description": "Essential development tools for code review, debugging, and refactoring. Includes strategic agents for high-level decisions and tactical skills for specific operations.",
