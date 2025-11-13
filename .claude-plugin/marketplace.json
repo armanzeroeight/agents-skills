@@ -85,6 +85,42 @@
       ]
     },
     {
+      "name": "docker-toolkit",
+      "source": "./plugins/docker-toolkit",
+      "description": "Docker containerization toolkit for image optimization, security scanning, and container best practices. Includes container architect agent for strategic container decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "docker",
+        "containers",
+        "image-optimization",
+        "security-scanning",
+        "containerization"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:docker"
+      ],
+      "category": "Containerization",
+      "strict": false,
+      "commands": [
+        "commands/optimize-image.md"
+      ],
+      "agents": [
+        "agents/container-architect.md"
+      ],
+      "skills": [
+        "skills/dockerfile-optimizer",
+        "skills/image-security-scanner"
+      ]
+    },
+    {
       "name": "developer-toolkit",
       "source": "./plugins/developer-toolkit",
       "description": "Essential development tools for code review, debugging, and refactoring. Includes strategic agents for high-level decisions and tactical skills for specific operations.",
