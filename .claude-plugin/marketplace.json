@@ -264,6 +264,42 @@
         "skills/python-packaging",
         "skills/dependency-manager"
       ]
+    },
+    {
+      "name": "react-toolkit",
+      "source": "./plugins/react-toolkit",
+      "description": "React development toolkit for component architecture, state management, and performance optimization. Includes react architect agent for strategic React decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "react",
+        "components",
+        "state-management",
+        "hooks",
+        "performance"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:react"
+      ],
+      "category": "React Development",
+      "strict": false,
+      "commands": [
+        "commands/create-component.md"
+      ],
+      "agents": [
+        "agents/react-architect.md"
+      ],
+      "skills": [
+        "skills/component-patterns",
+        "skills/state-management-advisor"
+      ]
     }
   ]
 }
