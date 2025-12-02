@@ -772,6 +772,258 @@
         "skills/role-builder",
         "skills/inventory-manager"
       ]
+    },
+    {
+      "name": "azure-toolkit",
+      "source": "./plugins/azure-toolkit",
+      "description": "Azure cloud toolkit for cost optimization, ARM templates, and infrastructure design. Includes azure architect agent for strategic Azure decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "azure",
+        "cloud",
+        "cost-optimization",
+        "arm-templates",
+        "infrastructure"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:azure"
+      ],
+      "category": "Cloud Infrastructure",
+      "strict": false,
+      "commands": [
+        "commands/estimate-azure-cost.md"
+      ],
+      "agents": [
+        "agents/azure-architect.md"
+      ],
+      "skills": [
+        "skills/azure-cost-optimizer",
+        "skills/arm-template-helper"
+      ]
+    },
+    {
+      "name": "gcp-toolkit",
+      "source": "./plugins/gcp-toolkit",
+      "description": "Google Cloud Platform toolkit for cost optimization, Cloud Build configuration, and infrastructure design. Includes gcp architect agent for strategic GCP decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "gcp",
+        "google-cloud",
+        "cost-optimization",
+        "cloud-build",
+        "infrastructure"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:gcp"
+      ],
+      "category": "Cloud Infrastructure",
+      "strict": false,
+      "commands": [
+        "commands/estimate-gcp-cost.md"
+      ],
+      "agents": [
+        "agents/gcp-architect.md"
+      ],
+      "skills": [
+        "skills/gcp-cost-optimizer",
+        "skills/cloud-build-helper"
+      ]
+    },
+    {
+      "name": "dbt-toolkit",
+      "source": "./plugins/dbt-toolkit",
+      "description": "dbt data transformation toolkit for model building, testing, and documentation. Includes dbt architect agent for strategic data modeling decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "dbt",
+        "data-transformation",
+        "analytics-engineering",
+        "data-modeling",
+        "sql"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:dbt"
+      ],
+      "category": "Data Engineering",
+      "strict": false,
+      "commands": [
+        "commands/validate-dbt.md"
+      ],
+      "agents": [
+        "agents/dbt-architect.md"
+      ],
+      "skills": [
+        "skills/model-builder",
+        "skills/test-generator"
+      ]
+    },
+    {
+      "name": "github-actions-toolkit",
+      "source": "./plugins/github-actions-toolkit",
+      "description": "GitHub Actions CI/CD toolkit for workflow design, custom action creation, and matrix optimization. Includes workflow architect agent for strategic automation decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "github-actions",
+        "ci-cd",
+        "workflow-automation",
+        "custom-actions",
+        "matrix-builds"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:github-actions"
+      ],
+      "category": "CI/CD",
+      "strict": false,
+      "commands": [
+        "commands/optimize-workflow.md"
+      ],
+      "agents": [
+        "agents/workflow-architect.md"
+      ],
+      "skills": [
+        "skills/action-builder",
+        "skills/matrix-optimizer"
+      ]
+    },
+    {
+      "name": "react-native-toolkit",
+      "source": "./plugins/react-native-toolkit",
+      "description": "React Native mobile development toolkit for native module integration, performance optimization, and cross-platform patterns. Includes RN architect agent for strategic mobile architecture decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "react-native",
+        "mobile",
+        "native-modules",
+        "performance",
+        "cross-platform"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:react-native"
+      ],
+      "category": "Mobile Development",
+      "strict": false,
+      "commands": [
+        "commands/create-native-module.md"
+      ],
+      "agents": [
+        "agents/rn-architect.md"
+      ],
+      "skills": [
+        "skills/native-module-helper",
+        "skills/performance-optimizer"
+      ]
+    },
+    {
+      "name": "nextjs-toolkit",
+      "source": "./plugins/nextjs-toolkit",
+      "description": "Next.js framework toolkit for rendering strategies (SSR/SSG/ISR), App Router patterns, and full-stack React development. Includes Next.js expert agent for strategic framework decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "nextjs",
+        "react",
+        "ssr",
+        "ssg",
+        "app-router"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:nextjs"
+      ],
+      "category": "Web Framework",
+      "strict": false,
+      "commands": [
+        "commands/create-page.md"
+      ],
+      "agents": [
+        "agents/nextjs-expert.md"
+      ],
+      "skills": [
+        "skills/ssr-ssg-advisor",
+        "skills/app-router-helper"
+      ]
+    },
+    {
+      "name": "go-toolkit",
+      "source": "./plugins/go-toolkit",
+      "description": "Go programming language toolkit for concurrency patterns, error handling, and idiomatic Go practices. Includes Go expert agent for strategic Go architecture decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "go",
+        "golang",
+        "concurrency",
+        "goroutines",
+        "error-handling"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:go"
+      ],
+      "category": "Programming Language",
+      "strict": false,
+      "commands": [
+        "commands/check-go.md"
+      ],
+      "agents": [
+        "agents/go-expert.md"
+      ],
+      "skills": [
+        "skills/goroutine-patterns",
+        "skills/error-handling"
+      ]
     }
   ]
 }
