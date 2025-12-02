@@ -1,4 +1,5 @@
 # Documentation files
 .docs/
+.design/
 scripts/
 templates/
