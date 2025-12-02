@@ -664,6 +664,114 @@
         "skills/complexity-analyzer",
         "skills/refactoring-advisor"
       ]
+    },
+    {
+      "name": "nginx-toolkit",
+      "source": "./plugins/nginx-toolkit",
+      "description": "Nginx web server toolkit for load balancing, SSL/TLS configuration, and performance optimization. Includes config architect agent for strategic nginx configuration decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "nginx",
+        "load-balancing",
+        "ssl-tls",
+        "reverse-proxy",
+        "web-server"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:nginx"
+      ],
+      "category": "Web Server",
+      "strict": false,
+      "commands": [
+        "commands/optimize-nginx.md"
+      ],
+      "agents": [
+        "agents/config-architect.md"
+      ],
+      "skills": [
+        "skills/load-balancer",
+        "skills/ssl-helper"
+      ]
+    },
+    {
+      "name": "cloudformation-toolkit",
+      "source": "./plugins/cloudformation-toolkit",
+      "description": "CloudFormation infrastructure as code toolkit for stack design, template validation, and deployment strategies. Includes cfn architect agent for strategic CloudFormation architecture decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "cloudformation",
+        "infrastructure-as-code",
+        "aws",
+        "stack-design",
+        "template-validation"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:cloudformation"
+      ],
+      "category": "Infrastructure as Code",
+      "strict": false,
+      "commands": [
+        "commands/validate-template.md"
+      ],
+      "agents": [
+        "agents/cfn-architect.md"
+      ],
+      "skills": [
+        "skills/stack-designer",
+        "skills/template-validator"
+      ]
+    },
+    {
+      "name": "ansible-toolkit",
+      "source": "./plugins/ansible-toolkit",
+      "description": "Ansible automation toolkit for playbook design, role creation, and inventory management. Includes playbook architect agent for strategic automation decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "ansible",
+        "automation",
+        "configuration-management",
+        "playbooks",
+        "infrastructure"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:ansible"
+      ],
+      "category": "Configuration Management",
+      "strict": false,
+      "commands": [
+        "commands/lint-playbook.md"
+      ],
+      "agents": [
+        "agents/playbook-architect.md"
+      ],
+      "skills": [
+        "skills/role-builder",
+        "skills/inventory-manager"
+      ]
     }
   ]
 }
